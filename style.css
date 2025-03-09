@@ -1,0 +1,65 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color:black;
+    color: #C9d1D9;
+}
+
+h1{
+    color: black;
+    background-color: white;
+}
+
+/* Attribute Selector */
+a{
+    color: red;
+}
+
+a:hover{
+    color: #1F6FEB;
+}
+
+
+/* Child Selector */
+ul>li {
+    font-weight:bold;
+    font-style:italic;
+    font-family:cursive;
+    font-family:20px;
+}
+
+/* Sibling Selector */
+
+/* :hover Pseudo-Class */
+ul li :hover{
+    color: orangered;
+} 
+
+
+/* :nth child(n) Pseudo-Class */
+
+ul li:nth-child(3){
+    background-color: rgb(135, 61, 255);
+}
+
+
+ul li::after{
+content: "🚀 ";
+}
+/* ::after Pseudo element */
+a::before{
+    content: " 🌌";
+
+}
+
+
+
+
+/* ::First-letter Pseudo-Class*/
+
+p::first-letter{
+    font-size:200%;
+    color:#FF7B72;
+}
+
+
+
